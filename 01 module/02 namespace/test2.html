@@ -1,0 +1,31 @@
+<script type="text/javascript" src="module1.js"></script>
+<script type="text/javascript" src="module2.js"></script>
+<script type="text/javascript">
+  myModule.foo()
+  myModule.bar()
+
+  myModule2.foo()
+  myModule2.bar()
+
+  myModule.data = 'from html other data' //能直接修改模块内部的数据
+  myModule.foo()
+
+/*
+myModule:: foo() myModulemyModule
+module1.js:7 
+myModule:: bar() myModulemyModule
+module2.js:4 
+myModule2 ::foo() myModule2myModule2
+module2.js:7 
+myModule2 :: bar() myModule2myModule2
+module1.js:4 
+myModule:: foo() from html other data
+*/
+
+/**
+ 说明
+ namespace模式: 简单对象封装
+ 作用: 减少了全局变量
+ 问题: 不安全
+**/
+</script>
