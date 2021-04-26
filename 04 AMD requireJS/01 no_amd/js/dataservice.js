@@ -1,7 +1,7 @@
 (function(window){
-    let name= dataservice.js;
+    let name= 'dataservice.js';
     function getName(){
-        return this.name
+        return name
     }
     window.dataservice={getName}
 })(window)

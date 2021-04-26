@@ -4,4 +4,4 @@ define(function (require) {
     var m4 = require('./module4')
     m1.show()
     m4.show()
-  })
+  }) 

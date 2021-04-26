@@ -15,7 +15,7 @@
   ```
 3. 定义require.js的模块代码
 
-4. 配置好main.js 以及页面模块设置
+4. 配置好main.js 以及页面模块设置,即可运行
 5. 使用第三方基于require.js的框架(jquery)
   * 将jquery的库文件导入到项目: 
     * js/libs/jquery-1.10.1.js

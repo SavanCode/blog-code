@@ -12,4 +12,9 @@
     requirejs(['alerter'], function(alerter) {
       alerter.showMsg()
     })
+
+    require(["dataService"], function(dataService){
+      dataService.getMsg();
+  });
+
   })()

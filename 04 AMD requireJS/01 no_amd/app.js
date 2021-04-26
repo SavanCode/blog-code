@@ -1,3 +1,3 @@
 (function(){
-alerter.showMsg()
+    alter.showMsg()
 })()
