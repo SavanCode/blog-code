@@ -1,3 +1,4 @@
+// 匿名闭包函数
 (function (window, $) {
   //数据
   let data = "module04";
