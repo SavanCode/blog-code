@@ -18,3 +18,8 @@
   });
 
   })()
+  /*
+  先会有弹窗[object object]
+  {getMsg: ƒ}getMsg: ƒ getMsg()__proto__: Object "www.baidu.com"  
+  {getMsg: ƒ}getMsg: ƒ getMsg()__proto__: Object "www.baidu.com"  
+  */ 

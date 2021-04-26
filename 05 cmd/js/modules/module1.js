@@ -4,7 +4,7 @@ define(function (require, exports, module) {
     var data = 'module1'
     //内部函数
     function show() {
-      console.log('module1 show() ' + data)
+      console.log( this,'module1 show() ' + data)
     }
     //向外暴露
     exports.show = show

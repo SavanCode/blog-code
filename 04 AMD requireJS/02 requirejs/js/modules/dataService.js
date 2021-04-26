@@ -2,7 +2,7 @@
 define(function() {
     let msg = 'www.baidu.com'
     function getMsg() {
-      console.log(msg)
+      console.log(this,msg)
       return msg.toUpperCase()
     }
     return { getMsg }

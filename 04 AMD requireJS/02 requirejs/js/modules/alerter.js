@@ -2,7 +2,7 @@
 define(['dataService'], function(dataService) {
     let name = 'Tom'
     function showMsg() {
-      alert(dataService.getMsg() + ', ' + name)
+      alert(this,dataService.getMsg() + ', ' + name)
     }
     return { showMsg }
   })
